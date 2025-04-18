@@ -23,6 +23,7 @@ By passing URL via SCRAPE_URL we can scrape any website
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 •	How to access the hosted scraped data:
+
 Once the container is running, the scraped data is served via a Flask web server inside the container.
     http://localhost:5000
 This URL returns the scraped data in JSON format. 
