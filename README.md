@@ -26,5 +26,7 @@ By passing URL via SCRAPE_URL we can scrape any website
 Once the container is running, the scraped data is served via a Flask web server inside the container.
     http://localhost:5000
 This URL returns the scraped data in JSON format. 
+
 Run Container:-
+
     docker run -p 5000:5000 -d 8192027760/web-scrapper_docker
