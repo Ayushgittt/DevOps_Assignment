@@ -1,0 +1,15 @@
+{
+  "name": "multi-docker-project",
+  "version": "1.0.0",
+  "main": "scrape.js",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "puppeteer": "^24.6.1"
+  },
+  "description": ""
+}
